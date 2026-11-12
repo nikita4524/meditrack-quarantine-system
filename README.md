@@ -82,15 +82,8 @@ The application enforces session security with role-based routing. Unauthenticat
 - Duplicate room assignments are automatically rejected.
 - Admissions are locked with an active alert when all 74 beds are occupied.
 
-### 4. Mortality Benchmark Vigilance (&le;15%)
-- **Mortality Rate Calculation:**
-  $$\text{Mortality Rate} = \left(\frac{\text{Total Deaths}}{\text{Total Completed Outcomes}}\right) \times 100$$
-- **Recovery Success Rate Calculation:**
-  $$\text{Success Rate} = \left(\frac{\text{Recovered Outcomes}}{\text{Total Completed Outcomes}}\right) \times 100$$
-- Ongoing (admitted) patients are strictly excluded from completed outcome denominators.
-- If mortality breaches **15%**, a persistent high-visibility warning banner is triggered across dashboards.
 
-### 5. Emergency Clinical Override
+### 4. Emergency Clinical Override
 - Routine doctor examinations require morning vitals to be logged first.
 - If an urgent evaluation is required before nurse rounds, doctors can activate an **Emergency Clinical Override** by submitting a mandatory medical justification (minimum 5 characters).
 
